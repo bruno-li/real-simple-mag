@@ -1,0 +1,47 @@
+
+.navbar {
+
+    &__left{
+
+        .navbar__hamburger{
+            
+            &-menu{
+                
+            }
+        }
+
+        .navbar__link {
+
+            &-text--active-left{
+
+            }
+        }
+
+        .navbar__site-logo{
+
+            &--img{
+
+            }
+        }
+    }
+
+    &__right{
+
+        .navbar__search{
+
+            &--icon{
+
+            }
+        }
+
+        .navbar__link{
+            &--text{
+
+            }
+            &-text--active-right {
+
+            }
+
+        }
+    }
+}
