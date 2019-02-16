@@ -10,8 +10,12 @@
 
 body {
     /* let us customize the box size model with specific unit without the default values */
-    box-sizing: border-box;
+	box-sizing: border-box;
+	font-family: sans-serif;
+
 }
+
+$color-primary: rgba(0, 0, 0, .95);
 
 // MEDIA QUERIES MANAGER
 

@@ -7,6 +7,7 @@
     <title>60% of People Break Their New Year's Resolution-Make This Tweak | Real Simple</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="shortcut icon" type="image/png" href="img/tab-logo.png">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700" rel="stylesheet">
     <link rel="stylesheet" type="text/css" media="screen" href="./css/style.css" />
 </head>
 
@@ -14,19 +15,22 @@
     <header>
         <nav class="navbar">
             <ul class="navbar__left">
-                <li class="navbar__hamburger"><img class="navbar__hamburger-menu" src="" alt="hamburger menu" /></li>
+                <li class="navbar__hamburger"><img class="navbar__hamburger-menu" src="img/hamburger-menu.png"
+                        alt="hamburger menu" /></li>
                 <li class="navbar__link"><a class="navbar__link-text--active-left" href="#"> Explore </a></li>
-                <li class="navbar__site-logo"><img class="navbar__site-logo--img" src="" alt="site logo"></li>
+                <li class="navbar__site-logo"><img class="navbar__site-logo--img" src="img/nav-brand-logo.png"
+                        alt="site logo"></li>
             </ul>
             <ul class="navbar__right">
-                <li class="navbar__search"><img class="navbar__search--icon" src="" alt="search"></li>
-                <li class="navbar__link"><a class="navbar__link--text" href="#">Your Account</a></li>
+                <li class="navbar__search"><img class="navbar__search--icon" src="img/nav-search-icon.png" alt="search">
+                </li>
+                <li class="navbar__link"><a class="navbar__link--text-border" href="#">Your Account</a></li>
                 <li class="navbar__link"><a class="navbar__link--text" href="#">Login</a></li>
-                <li class="navbar__link"><a lass="navbar__link-text--active-right" href="#">Subscribe</a></li>
+                <li class="navbar__link"><a class="navbar__link-text--active-right" href="#">Subscribe</a></li>
             </ul>
         </nav>
     </header>
-    <main>
+    <main class="main-container">
         <section class="title">
             <ol class="title__list-link">
                 <li> <a class="title__list-link--text" href="">Real Simple</a></li>
@@ -41,18 +45,18 @@
                     strategy.</p>
             </header>
             <div class="title__author">
-                <span>By </span><a class="title__author-name">Claudia Fisher</a>
+                <span>By </span><a href="#" class="title__author-name">Claudia Fisher</a>
             </div>
         </section>
-        <aside class="social__media">
+        <!-- <aside class="social__media">
             <ul class="social__media-link">
                 <li></li>
                 <li></li>
             </ul>
-        </aside>
+        </aside> -->
         <article class="main-content">
             <figure class="main-content__photo-container">
-                <img class="main-content__photo-container--img" src="" alt="">
+                <img class="main-content__photo-container--img" src="img/heading-img.png" alt="heading image">
             </figure>
             <p class="main-content__paragraph">
                 It's always better to set yourself up for success, so the same should go for your New Year's resolution.
@@ -88,7 +92,8 @@
             </p>
 
             <div class="main-content__link">
-                <a href=""><strong>RELATED</strong>: 21 New Year Quotes to Start Your Year Off Right</a>
+                <a class="main-content__link--text" href=""><strong>RELATED</strong>: 21 New Year Quotes to Start Your
+                    Year Off Right</a>
             </div>
             <p class="main-content__paragraph">
                 Thinking about a New Year's resolution this way has subsequent benefits that can further help you stick
@@ -102,17 +107,38 @@
         </article>
     </main>
     <footer class="footer">
-        <h1 class="footer__heading-logo">
-            <img class="footer__heading-logo--img" src="" alt="footer logo">
-        </h1>
+        <h2 class="footer__heading-logo">
+            <img class="footer__heading-logo--img" src="img/footer-brand-logo.png" alt="footer logo">
+        </h2>
         <div class="footer__left-container">
-
+            <h2 class="footer__heading">Magazines & More</h2>
+            <figure class="footer_left-container-ad">
+                <img class="footer__left-container--img" src="img/footer-ad.png" alt="magazine ad">
+            </figure>
         </div>
         <div class="footer__middle-container">
-
+            <h2 class="footer__heading">Learn More</h2>
+            <ul class="footer__middle-container-list">
+                <li class="footer__middle-container-item"><a class="footer__middle-container-link" href="">About Us</a>
+                </li>
+                <li class="footer__middle-container-item"><a class="footer__middle-container-link" href="">Subscribe</a>
+                </li>
+                <li class="footer__middle-container-item"><a class="footer__middle-container-link" href="">Help</a>
+                </li>
+                <li class="footer__middle-container-item"><a class="footer__middle-container-link" href="">Media Kit</a>
+                </li>
+                <li class="footer__middle-container-item"><a class="footer__middle-container-link" href="">Sitemap</a>
+                </li>
+            </ul>
         </div>
         <div class="footer__right-container">
-
+            <h2 class="footer__heading">Connect</h2>
+            <p class="footer__right-container--paragraph">Follow Us</p>
+            <figure>
+                <img class="footer__right-container-social" src="img/footer-social-media.png" alt="social media">
+            </figure>
+            <p class="footer__right-container--paragraph">Subscribe to Our Newsletter</p>
+            <button class="footer__right-container-btn">Sign Up</button>
         </div>
     </footer>
 
