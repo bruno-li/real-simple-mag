@@ -74,7 +74,8 @@ body {
         margin-left: 1.2rem; }
 
 .main-container {
-  width: 750px;
+  width: 60%;
+  max-width: 850px;
   margin: 90px auto; }
 
 .title__list-link {
