@@ -21,7 +21,7 @@
         margin-left: 12rem;
         .navbar__hamburger{
             
-            &-menu{
+            &__menu{
                 width: 25px;
                 margin-right: .5rem;
             }
@@ -29,7 +29,7 @@
         .navbar__link {
             margin-bottom: 5px;
 
-            &-text--active-left{
+            &-text__active-left{
                 text-decoration: none;
                 color: $color-primary;
                 text-transform: uppercase;
@@ -42,7 +42,7 @@
 
         .navbar__site-logo{
 
-            &--img{
+            &__img{
                 width: 220px;
 
             }
@@ -58,7 +58,7 @@
 
 
         .navbar__search{
-            &--icon{
+            &__icon{
                 width: 17px;
                 margin-right: .6rem;
             }
@@ -69,25 +69,24 @@
             font-size: 14px;
             line-height: 20px;
 
-            &--text{
+            &__text{
                 color: $color-primary;
                 text-decoration: none;
             }
-            &--text-border{
+            &__text-border{
                 color: $color-primary;
                 text-decoration: none;
                 padding: 0 14px;
                 border-right: 1px solid #D7D7D9;
                 border-left: 1px solid #D7D7D9;
             }
-            &-text--active-right {
+            &__text__active-right {
                 font-size: 12px;
                 line-height: 12px;
                 font-weight: 700;
                 color: $color-primary;
                 text-transform: uppercase;
                 text-decoration: none;
-
                 margin-left: 1.2rem;
             }
 

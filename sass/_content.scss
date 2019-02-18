@@ -1,23 +1,16 @@
 .main-container{
-
     width: 60%;
     max-width: 850px;
-
-margin: 90px auto;
-
+    margin: 90px auto;
 }
-
-
 
 .title{
     &__list-link{ 
         display: flex;
         list-style: none;
         margin-bottom: 2.2rem;
-        // border: 2px solid yellowgreen;  
 
-
-        &--text{
+        &__text{
             font-size: 14px;
             line-height: 20px;
             font-weight: 900;
@@ -36,12 +29,12 @@ margin: 90px auto;
 
     &__header{
 
-        &-heading{
+        &__heading{
             font-size: 48px;
             line-height: 52px;
             font-weight: 700;
         }
-        &-paragraph{
+        &__paragraph{
             font-size: 18px;
             line-height: 28px;
             color: $color-primary;
@@ -54,7 +47,7 @@ margin: 90px auto;
         line-height: 20px;
         margin: 1rem 0;
 
-        &-name{
+        &__name{
             font-weight: 700;
             color: $color-primary;
 
@@ -69,10 +62,8 @@ margin: 90px auto;
 }
 
 .main-content{
-
     &__photo-container{
-
-        &--img{
+        &__img{
             width: 100%
         }
     }
@@ -88,7 +79,7 @@ margin: 90px auto;
     &__link{
         margin-top: 28px;
 
-        &--text{
+        &__text{
             color: $color-primary;
             font-size: 18px;
             line-height: 28px;

@@ -3,7 +3,7 @@
     padding: 38px;
     flex-flow: row wrap;
     justify-content: center;
-    margin-bottom: 5rem;
+    margin-bottom: 4rem;
     text-align: center;
     color: $color-primary;
     border-top: 1px solid rgba(0,0,0,.15);
@@ -17,9 +17,10 @@
     &__heading-logo{
         display: inline-flex;
         flex: 0 0 100%;
+        margin-top: 1rem;
         margin-bottom: 3rem;
 
-        &--img{
+        &__img{
             width: 23%;
             height: 100%;
             margin: 0 auto;
@@ -28,14 +29,13 @@
     // Left Container
     &__left-container{
         flex: 0 0 30%;
-        padding-bottom: 11rem;
+        padding-bottom: 5rem;
 
-        &--img{
+        &__img{
             margin-top: 1rem;
             width: 60%;
         }
     }
-
     // Midle Container
     &__middle-container{
         height: 320px;
@@ -50,47 +50,44 @@
             color: $color-primary;
             list-style: none;
         }
-        &-item{
+        &__item{
             margin-top: 5px;
             padding-top: 12px;
 
         }
-        &-link{
+        &__link{
             text-decoration: none;
             color: $color-primary;
             &:hover{
                 text-decoration: underline;
             }
         }
-
-
     }
     // Right Container
     &__right-container{
         flex: 0 0 30%;
-        &--paragraph{
+        &__paragraph{
             font-family: "Lora";
             font-size: 14px;
             line-height: 20px;
             margin: 1rem;
         }
-        &-social{
+        &__social{
             width: 45%;
             margin-bottom: 1rem;
         }
 
-        &-btn{
-    padding: 12px;
-    width: 180px;
-    font-size: 15px;
-    text-transform: uppercase;
-    letter-spacing: 0.1em;
-    color: #f5416c;
-    border-style: solid;
-    border-color: #f5416c;
-    border-width: 3px;
-    background-color: rgb(252, 252, 252);
+        &__btn{
+             padding: 12px;
+             width: 180px;
+             font-size: 15px;
+             text-transform: uppercase;
+             letter-spacing: 0.1em;
+             color: #f5416c;
+             border-style: solid;
+             border-color: #f5416c;
+             border-width: 3px;
+             background-color: rgb(252, 252, 252);
         }
-
     }
 }
