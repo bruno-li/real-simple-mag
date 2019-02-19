@@ -24,10 +24,10 @@
             // MEDIA QUERIES
             @include respond(phone) {
                 width: 280px;
-                margin-left: 12rem;
+                margin-left: 10rem;
             } 
             @include respond(small-phone) {
-                margin-left: 3rem;
+                margin-left: 0.5rem;
             } 
             @include respond(smallest-phone) {
                 width: 220px;
@@ -68,6 +68,7 @@
             flex: 0 0 300px;
         } 
         @include respond(phone) {
+            flex: 0 0 250px;
             border-left: none;
         } 
         @include respond(small-phone) {
@@ -96,7 +97,13 @@
     }
     // Right Container
     &__right-container{
+
+   
         flex: 0 0 300px;
+        @include respond(phone) {
+            flex: 0 0 250px;
+            border-left: none;
+        } 
         &__paragraph{
             font-family: "Lora";
             font-size: 14px;
