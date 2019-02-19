@@ -28,10 +28,34 @@ body {
     display: flex;
     align-items: center;
     list-style: none;
-    margin-left: 12rem; }
+    margin-left: 12rem;
+    /* Custom, iPhone Retina */
+    /* Extra Small Devices, Phones */
+    /* Small Devices, Tablets */
+    /* Medium Devices */
+    /* Large Devices, Wide Screens */
+    /* Custom, iPhone Retina */
+    /* Extra Small Devices, Phones */
+    /* Small Devices, Tablets */
+    /* Medium Devices */
+    /* Large Devices, Wide Screens */ }
+    @media (max-width: 1040px) {
+      .navbar__left {
+        margin-left: 3rem; } }
+    @media (max-width: 768px) {
+      .navbar__left {
+        margin-left: 2rem; } }
     .navbar__left .navbar__hamburger__menu {
       width: 25px;
-      margin-right: .5rem; }
+      margin-right: .5rem;
+      /* Custom, iPhone Retina */
+      /* Extra Small Devices, Phones */
+      /* Small Devices, Tablets */
+      /* Medium Devices */
+      /* Large Devices, Wide Screens */ }
+      @media (max-width: 1040px) {
+        .navbar__left .navbar__hamburger__menu {
+          margin-right: 1.3rem; } }
     .navbar__left .navbar__link {
       margin-bottom: 5px; }
       .navbar__left .navbar__link-text__active-left {
@@ -40,21 +64,50 @@ body {
         text-transform: uppercase;
         font-size: 14px;
         line-height: 20px;
-        margin-right: 1.2em; }
+        margin-right: 1.2em;
+        /* Custom, iPhone Retina */
+        /* Extra Small Devices, Phones */
+        /* Small Devices, Tablets */
+        /* Medium Devices */
+        /* Large Devices, Wide Screens */ }
+        @media (max-width: 1040px) {
+          .navbar__left .navbar__link-text__active-left {
+            display: none; } }
     .navbar__left .navbar__site-logo__img {
       width: 220px; }
   .navbar__right {
     display: flex;
     align-items: center;
     list-style: none;
-    margin-right: 8rem; }
+    margin-right: 8rem;
+    /* Custom, iPhone Retina */
+    /* Extra Small Devices, Phones */
+    /* Small Devices, Tablets */
+    /* Medium Devices */
+    /* Large Devices, Wide Screens */
+    /* Custom, iPhone Retina */
+    /* Extra Small Devices, Phones */
+    /* Small Devices, Tablets */
+    /* Medium Devices */
+    /* Large Devices, Wide Screens */ }
+    @media (max-width: 1040px) {
+      .navbar__right {
+        margin-right: 1rem; } }
+    @media (max-width: 768px) {
+      .navbar__right {
+        margin-right: 0; } }
     .navbar__right .navbar__search__icon {
       width: 17px;
       margin-right: .6rem; }
     .navbar__right .navbar__link {
       margin-right: .4rem;
       font-size: 14px;
-      line-height: 20px; }
+      line-height: 20px;
+      /* Custom, iPhone Retina */
+      /* Extra Small Devices, Phones */
+      /* Small Devices, Tablets */
+      /* Medium Devices */
+      /* Large Devices, Wide Screens */ }
       .navbar__right .navbar__link__text {
         color: rgba(0, 0, 0, 0.95);
         text-decoration: none; }
@@ -64,14 +117,33 @@ body {
         padding: 0 14px;
         border-right: 1px solid #D7D7D9;
         border-left: 1px solid #D7D7D9; }
-      .navbar__right .navbar__link__text__active-right {
+      @media (max-width: 768px) {
+        .navbar__right .navbar__link {
+          display: none; } }
+      .navbar__right .navbar__link__text--active-right {
         font-size: 12px;
         line-height: 12px;
         font-weight: 700;
         color: rgba(0, 0, 0, 0.95);
         text-transform: uppercase;
         text-decoration: none;
-        margin-left: 1.2rem; }
+        margin-left: 1.2rem;
+        /* Custom, iPhone Retina */
+        /* Extra Small Devices, Phones */
+        /* Small Devices, Tablets */
+        /* Medium Devices */
+        /* Large Devices, Wide Screens */
+        /* Custom, iPhone Retina */
+        /* Extra Small Devices, Phones */
+        /* Small Devices, Tablets */
+        /* Medium Devices */
+        /* Large Devices, Wide Screens */ }
+        @media (max-width: 768px) {
+          .navbar__right .navbar__link__text--active-right {
+            margin-right: 2rem; } }
+        @media (max-width: 320px) {
+          .navbar__right .navbar__link__text--active-right {
+            display: none; } }
 
 .main-container {
   width: 60%;
