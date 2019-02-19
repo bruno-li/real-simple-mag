@@ -21,6 +21,18 @@
             width: 320px;
             height: 100%;
             margin: 0 auto;
+            // MEDIA QUERIES
+            @include respond(phone) {
+                width: 280px;
+                margin-left: 12rem;
+            } 
+            @include respond(small-phone) {
+                margin-left: 3rem;
+            } 
+            @include respond(smallest-phone) {
+                width: 220px;
+                margin-left: 0
+            }     
         }
     }
                 // Left Container
@@ -38,6 +50,11 @@
             margin-top: 1rem;
             width: 280px;
         }
+        // MEDIA QUERIES
+        @include respond(phone) {
+            flex: 0 0 100%;
+        } 
+
     }
 
     // Midle Container
@@ -46,6 +63,16 @@
         flex: 0 0 350px;
         border-right:1px solid rgba(0,0,0,.15);
         border-left: 1px solid rgba(0,0,0,.15);
+        // MEDIA QUERIES
+        @include respond(tab-port) {
+            flex: 0 0 300px;
+        } 
+        @include respond(phone) {
+            border-left: none;
+        } 
+        @include respond(small-phone) {
+            border-right: none;
+        } 
 
         &-list {
             font-family: "Lora";
