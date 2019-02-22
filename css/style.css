@@ -385,6 +385,7 @@ body {
         border-left: none; } }
     @media (max-width: 480px) {
       .footer__middle-container {
+        height: 310px;
         border-right: none; } }
     .footer__middle-container-list {
       font-family: "Lora";

@@ -72,6 +72,7 @@
             border-left: none;
         } 
         @include respond(small-phone) {
+            height: 310px;
             border-right: none;
         } 
 
@@ -98,7 +99,6 @@
     // Right Container
     &__right-container{
 
-   
         flex: 0 0 300px;
         @include respond(phone) {
             flex: 0 0 250px;
